@@ -37,8 +37,7 @@ Javascript:
 //Main
 <script src="js/main.js"></script>
 ```
-
-Note: Place this before the end </body> of your HTML
+*Note: Place this before the end </body> of your HTML
 
 2.) Create the Javascript
 
