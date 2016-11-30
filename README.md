@@ -104,4 +104,4 @@ getValues()
 
 
 ### 3.) Build the HTML and CSS   
-This is done using Bootstrap HTML <http://getbootstrap.com/getting-started/> and CSS <http://getbootstrap.com/css/> quickly and easily.
+This is done using Bootstrap [HTML](http://getbootstrap.com/getting-started/) and [CSS](http://getbootstrap.com/css/) quickly and easily.
