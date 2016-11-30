@@ -14,7 +14,7 @@ CSS:
 
 ```html
 <!-- Boostrap -->
-<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css”>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
 <!-- Date Picker -->
 <link rel="stylesheet" type="text/css" href="css/datepicker.css" />
 <!-- Boostrap -->
