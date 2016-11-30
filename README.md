@@ -49,13 +49,13 @@ Process:
 ```javascript
 //Use - This updates the status (visible or hidden) of the high and low temperatures.   
 //Parameters - The clicked checkbox
+
 toggleTemps()
 ```
 
-
+*Use* - This updates the date duration.   
+*Parameters* - The date input field
 ```javascript
-//Use - This updates the date duration.   
-//Parameters - The date input field
 toggleDates()
 ```
 
@@ -74,9 +74,9 @@ updateChart()
 
 
 ```javascript
-getValues()
 //Use - Accesses properties in JSON and returns value  
 //Parameters - The data and the property you’re trying to access
+getValues()
 ```
 
 ##### Variables:
