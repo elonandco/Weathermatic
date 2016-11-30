@@ -44,7 +44,7 @@ Process:
 
 ### 2.) Create the Main.css
 
-##### Methods:
+#### Methods:
 
 ```javascript
 //Use - This updates the status (visible or hidden) of the high and low temperatures.   
@@ -84,23 +84,23 @@ updateChart()
 getValues()
 ```
 
-##### Variables:
+#### Variables:
 
-**highJSON** - I save the high temperature JSON here in order to access later. This prevents me from having to make multiple JSON calls when I don’t have to.  
+`highJSON` - I save the high temperature JSON here in order to access later. This prevents me from having to make multiple JSON calls when I don’t have to.  
 
-**lowsJSON** - I save the low temperature JSON here in order to access later. This prevents me from having to make multiple JSON calls when I don’t have to.    
+`lowsJSON` - I save the low temperature JSON here in order to access later. This prevents me from having to make multiple JSON calls when I don’t have to.    
 
-**chart** - The highchart  
+`chart` - The highchart  
 
-**date** - the currently selected dates  
+`date` - the currently selected dates  
 
-**dateOrig** - the start and end date of the JSON data. This is how we show all dates
+`dateOrig` - the start and end date of the JSON data. This is how we show all dates
 
-##### Properties:
+#### Properties:
 
-**input.high** - This saves the status of the high temperature checkbox. The value can only be true or false. True meaning high temps checkbox is checked, false meaning that its not.  
+`input.high` - This saves the status of the high temperature checkbox. The value can only be true or false. True meaning high temps checkbox is checked, false meaning that its not.  
 
-**input.low** - This saves the status of the low temperature checkbox. The value can only be true or false. True meaning low temps checkbox is checked, false meaning that its not. 
+`input.low` - This saves the status of the low temperature checkbox. The value can only be true or false. True meaning low temps checkbox is checked, false meaning that its not. 
 
 
 ### 3.) Build the HTML and CSS   
