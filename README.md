@@ -7,8 +7,8 @@ Below are instructions on how to dynamically interact with Highcharts using Embe
 1.) Download Files  
 2.) To view locally, open “index.html” in Firefox, otherwise, host the files on a server and navigate to index.html
 
-<b>Process:</b><br>
-1.) Load Dependencies
+### Process:
+1.) Load Dependencies  
 
 CSS:
 //Bootstrap 
