@@ -1,0 +1,14 @@
+body {
+  padding-top: 50px;
+  margin-bottom: 60px;
+}
+.starter-template {
+  padding: 40px 15px;
+  text-align: center;
+}
+li {
+    list-style: none;
+}
+.content {
+    text-align: left;
+}

@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Weathermatic</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" type="text/css" href="css/datepicker.css" />
+  </head>
+  <body>
+
+
+  <nav class="navbar navbar-inverse navbar-fixed-top">
+      <div class="container">
+          <div class="navbar-header">
+            <a class="navbar-brand" href="#">Weathermatic</a>
+          </div>
+      </div>
+  </nav>
+
+
+  <div class="container">
+    <div class="starter-template">
+      <div class="row">
+        <div class="col-xs-6">
+          <div id="chart"></div>
+        </div>
+
+        <div class="col-xs-6 content">
+
+          <ul class="section type-of-temp">
+              <li><input type="checkbox" value="high" class="high-check" checked> High Temp</li>
+              <li><input type="checkbox" value="low" class="low-check" checked> Low Temp</li>
+          </ul>
+
+          <ul class="section">
+           <div class="form-group">
+              <label for="exampleInputEmail1">Data Range</label>
+              <input type="text" id="date" class="form-control">
+           </div>
+           <hr>
+           <button type="button" class="btn btn-default reset-chart">Show All Dates</button>
+          </ul>
+
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.10.2/moment.min.js"></script>
+  <script type="text/javascript" src="js/datepicker.js"></script>
+  <script src="http://code.highcharts.com/highcharts.js"></script>
+  <script src="js/main.js"></script>
+
+  </body>
