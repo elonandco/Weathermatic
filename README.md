@@ -10,8 +10,7 @@ Below are instructions on how to dynamically interact with Highcharts using Embe
 ### Process:
 1.) Load Dependencies  
 
-CSS:
-
+CSS:  
 ```html
 <!-- Boostrap -->
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
@@ -23,13 +22,21 @@ CSS:
 *Note: Place this in the <head> of your HTML
 
 
-JS (Place before body tag):
+Javascript:  
+```javascript
 //JQuery
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
 //Bootstrap
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
 //Moment
+<script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.10.2/moment.min.js"></script>
 //Date Picker
+<script type="text/javascript" src="js/datepicker.js"></script>
 //High Charts
+<script src="http://code.highcharts.com/highcharts.js"></script>
 //Main
+<script src="js/main.js"></script>
+```
 
 Note: Place this before the end </body> of your HTML
 
