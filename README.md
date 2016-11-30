@@ -11,7 +11,7 @@ Below are instructions on how to dynamically interact with Highcharts using Embe
 1.) Load Dependencies  
 
 CSS:
-```
+```html
 //Bootstrap   
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css”>
 
