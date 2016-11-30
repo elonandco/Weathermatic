@@ -53,9 +53,11 @@ Process:
 toggleTemps()
 ```
 
-*Use* - This updates the date duration.   
-*Parameters* - The date input field
+
 ```javascript
+//Use - This updates the date duration.   
+//Parameters - The date input field
+
 toggleDates()
 ```
 
@@ -63,12 +65,14 @@ toggleDates()
 ```javascript
 //Use - Converts data into Highcharts “series” structure  
 //Parameters - An array that needs converting and the temp property to access from the JSON (“high_temp" or “low_temp") 
+
 convertDates()
 ```
 
 ```javascript
 //Use - Get’s data and is used to initializes chart  
 //Parameters - None
+
 updateChart()
 ```
 
@@ -76,6 +80,7 @@ updateChart()
 ```javascript
 //Use - Accesses properties in JSON and returns value  
 //Parameters - The data and the property you’re trying to access
+
 getValues()
 ```
 
