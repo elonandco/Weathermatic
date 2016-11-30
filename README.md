@@ -9,9 +9,7 @@ Below are instructions on how to dynamically interact with Highcharts using Embe
 
 ### Process:
 
-1.) Load Dependencies  
-
----
+###### 1.) Load Dependencies  
 
 #### CSS: 
 ```html
@@ -41,9 +39,7 @@ Below are instructions on how to dynamically interact with Highcharts using Embe
 ```
 *Note: Place this before the end body of your HTML*
 
-2.) Create the Main.css
-
----
+###### 2.) Create the Main.css
 
 ####Methods:
 
@@ -95,8 +91,7 @@ getValues()
 
 **input.low** - This saves the status of the low temperature checkbox. The value can only be true or false. True meaning low temps checkbox is checked, false meaning that its not. 
 
----
 
-3.) Build the HTML using Bootstrap <http://getbootstrap.com/getting-started/>; quickly and easily.
+###### 3.) Build the HTML using Bootstrap <http://getbootstrap.com/getting-started/>; quickly and easily.
 
-4.) Build the CSS using Bootstrap <http://getbootstrap.com/css/> plus adding some custom code to styles.css
+###### 4.) Build the CSS using Bootstrap <http://getbootstrap.com/css/> plus adding some custom code to styles.css
