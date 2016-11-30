@@ -8,7 +8,10 @@ Below are instructions on how to dynamically interact with Highcharts using Embe
 2.) To view locally, open “index.html” in Firefox, otherwise, host the files on a server and navigate to index.html
 
 ### Process:
+
 1.) Load Dependencies  
+
+---
 
 #### CSS: 
 ```html
@@ -41,6 +44,8 @@ Below are instructions on how to dynamically interact with Highcharts using Embe
 ---
 
 2.) Create the Main.css
+
+---
 
 ####Methods:
 
@@ -86,11 +91,13 @@ getValues()
 
 **dateOrig** - the start and end date of the JSON data. This is how we show all dates
 
-######Properties:
+####Properties:
 
 **input.high** - This saves the status of the high temperature checkbox. The value can only be true or false. True meaning high temps checkbox is checked, false meaning that its not.  
 
-**input.low** - This saves the status of the low temperature checkbox. The value can only be true or false. True meaning low temps checkbox is checked, false meaning that its not.  
+**input.low** - This saves the status of the low temperature checkbox. The value can only be true or false. True meaning low temps checkbox is checked, false meaning that its not. 
+
+---
 
 3.) Build the HTML using Bootstrap <http://getbootstrap.com/getting-started/>; quickly and easily.
 
