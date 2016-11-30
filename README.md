@@ -38,6 +38,8 @@ Below are instructions on how to dynamically interact with Highcharts using Embe
 ```
 *Note: Place this before the end body of your HTML*
 
+---
+
 2.) Create the Main.css
 
 ####Methods:
