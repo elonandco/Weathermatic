@@ -1,5 +1,9 @@
 # Weathermatic-Test
 
+Demo:
+---
+http://elonandcompany.com/Test/Weathermatic-Test/
+
 Description:
 ---
 Below are instructions on how to dynamically interact with Highcharts using Ember, Bootstrap and Datepicker.
