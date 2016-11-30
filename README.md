@@ -11,14 +11,16 @@ Below are instructions on how to dynamically interact with Highcharts using Embe
 1.) Load Dependencies  
 
 CSS:
-//Bootstrap 
-<link rel="stylesheet ><>" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css <view-source:https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css>”>
-//Date Picker CSS
-<link rel="stylesheet ><>" type="text/css <>" href="css/datepicker.css <view-source:file:///Users/elonmitchell/Desktop/Weathermatic-Test/css/datepicker.css>" />
-//My Custom CSS
-<link rel="stylesheet ><>" href="css/style.css <view-source:file:///Users/elonmitchell/Desktop/Weathermatic-Test/css/style.css>”>
+```
+//Bootstrap   
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css”>
+//Date Picker CSS  
+<link rel="stylesheet" type="text/css" href="css/datepicker.css" />
+//My Custom CSS  
+<link rel="stylesheet" href="css/style.css”>
 
 Note: Place this in the <head> of your HTML
+```
 
 JS (Place before body tag):
 //JQuery
