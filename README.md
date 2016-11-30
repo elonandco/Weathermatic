@@ -1,13 +1,13 @@
 # Weathermatic-Test
 
-Description: 
+### Description:
 Below are instructions on how to dynamically interact with Highcharts using Ember, Bootstrap and Datepicker.
 
-Installation:
-1.) Download Files
+### Installation:
+1.) Download Files  
 2.) To view locally, open “index.html” in Firefox, otherwise, host the files on a server and navigate to index.html
 
-Process:
+<b>Process:</b><br>
 1.) Load Dependencies
 
 CSS:
