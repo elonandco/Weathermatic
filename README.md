@@ -103,6 +103,6 @@ getValues()
 **input.low** - This saves the status of the low temperature checkbox. The value can only be true or false. True meaning low temps checkbox is checked, false meaning that its not. 
 
 
-###### 3.) Build the HTML using Bootstrap <http://getbootstrap.com/getting-started/>; quickly and easily.
+### 3.) Build the HTML using Bootstrap <http://getbootstrap.com/getting-started/>; quickly and easily.
 
-###### 4.) Build the CSS using Bootstrap <http://getbootstrap.com/css/> plus adding some custom code to styles.css
+### 4.) Build the CSS using Bootstrap <http://getbootstrap.com/css/> plus adding some custom code to styles.css
