@@ -47,34 +47,37 @@ Process:
 ##### Methods:
 
 ```javascript
+//Use - This updates the status (visible or hidden) of the high and low temperatures.   
+//Parameters - The clicked checkbox
 toggleTemps()
 ```
-**Use:** This updates the status (visible or hidden) of the high and low temperatures.   
-**Parameters:** The clicked checkbox
+
 
 ```javascript
+//Use - This updates the date duration.   
+//Parameters - The date input field
 toggleDates()
 ```
-**Use:** This updates the date duration.   
-**Parameters:** The date input field
+
 
 ```javascript
+//Use - Converts data into Highcharts “series” structure  
+//Parameters - An array that needs converting and the temp property to access from the JSON (“high_temp" or “low_temp") 
 convertDates()
 ```
-**Use:** Converts data into Highcharts “series” structure  
-**Parameters:** An array that needs converting and the temp property to access from the JSON (“high_temp" or “low_temp") 
 
 ```javascript
+//Use - Get’s data and is used to initializes chart  
+//Parameters - None
 updateChart()
 ```
-**Use:** Get’s data and is used to initializes chart  
-**Parameters:** None
+
 
 ```javascript
 getValues()
+//Use - Accesses properties in JSON and returns value  
+//Parameters - The data and the property you’re trying to access
 ```
-**Use:** Accesses properties in JSON and returns value  
-**Parameters:** The data and the property you’re trying to access
 
 ##### Variables:
 
