@@ -1,17 +1,20 @@
 # Weathermatic-Test
 
-### Description:
+Description:
+---
 Below are instructions on how to dynamically interact with Highcharts using Ember, Bootstrap and Datepicker.
 
-### Installation:
+Installation:
+---
 1.) Download Files  
 2.) To view locally, open “index.html” in Firefox, otherwise, host the files on a server and navigate to index.html
 
-### Process:
+Process:
+---
 
-###### 1.) Load Dependencies  
+### 1.) Load Dependencies  
 
-#### CSS: 
+##### CSS: 
 ```html
 <!-- Boostrap -->
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
@@ -22,7 +25,7 @@ Below are instructions on how to dynamically interact with Highcharts using Embe
 ```
 *Note: Place this in the head of your HTML*
 
-#### Javascript: 
+##### Javascript: 
 ```javascript
 //JQuery
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
@@ -39,9 +42,9 @@ Below are instructions on how to dynamically interact with Highcharts using Embe
 ```
 *Note: Place this before the end body of your HTML*
 
-###### 2.) Create the Main.css
+### 2.) Create the Main.css
 
-####Methods:
+##### Methods:
 
 ```javascript
 toggleTemps()
@@ -73,7 +76,7 @@ getValues()
 **Use:** Accesses properties in JSON and returns value  
 **Parameters:** The data and the property you’re trying to access
 
-####Variables:
+##### Variables:
 
 **highJSON** - I save the high temperature JSON here in order to access later. This prevents me from having to make multiple JSON calls when I don’t have to.  
 
@@ -85,7 +88,7 @@ getValues()
 
 **dateOrig** - the start and end date of the JSON data. This is how we show all dates
 
-####Properties:
+##### Properties:
 
 **input.high** - This saves the status of the high temperature checkbox. The value can only be true or false. True meaning high temps checkbox is checked, false meaning that its not.  
 
