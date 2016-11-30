@@ -19,8 +19,7 @@ CSS:
 <!-- Boostrap -->
 <link rel="stylesheet" href="css/style.css”>
 ```
-*Note: Place this in the <head> of your HTML
-
+*Note: Place this in the head of your HTML*
 
 Javascript:  
 ```javascript
@@ -37,35 +36,43 @@ Javascript:
 //Main
 <script src="js/main.js"></script>
 ```
-*Note: Place this before the end </body> of your HTML
+*Note: Place this before the end body of your HTML*
 
-2.) Create the Javascript
+2.) Create the Main.css
 
-Main.css
+#####Methods:
 
-Methods:
-
+```javascript
 toggleTemps()
-Use: This updates the status (visible or hidden) of the high and low temperatures. 
-Parameters: The clicked checkbox
+```
+**Use:** This updates the status (visible or hidden) of the high and low temperatures. 
+**Parameters:** The clicked checkbox
 
+```javascript
 toggleDates()
-Use: This updates the date duration. 
-Parameters: The date input field
+```
+**Use:** This updates the date duration. 
+**Parameters:** The date input field
 
+```javascript
 convertDates()
-Use: Converts data into Highcharts “series” structure
-Parameters: An array that needs converting and the temp property to access from the JSON (“high_temp" or “low_temp") 
+```
+**Use:** Converts data into Highcharts “series” structure
+**Parameters:** An array that needs converting and the temp property to access from the JSON (“high_temp" or “low_temp") 
 
+```javascript
 updateChart()
-Use: Get’s data and is used to initializes chart
-Parameters: None
+```
+**Use:** Get’s data and is used to initializes chart
+**Parameters:** None
 
+```javascript
 getValues()
-Use: Accesses properties in JSON and returns value
-Parameters: The data and the property you’re trying to access
+```
+**Use:** Accesses properties in JSON and returns value
+**Parameters:** The data and the property you’re trying to access
 
-Variables:
+######Variables:
 
 highJSON - I save the high temperature JSON here in order to access later. This prevents me from having to make multiple JSON calls when I don’t have to.
 
