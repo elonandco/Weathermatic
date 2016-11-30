@@ -20,9 +20,9 @@ CSS:
 
 //My Custom CSS  
 <link rel="stylesheet" href="css/style.css”>
-
-Note: Place this in the <head> of your HTML
 ```
+*Note: Place this in the <head> of your HTML
+
 
 JS (Place before body tag):
 //JQuery
