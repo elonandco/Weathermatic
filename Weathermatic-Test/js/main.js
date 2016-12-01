@@ -33,12 +33,6 @@ $(document).ready(function () {
     input[target.value] = target.checked;
   };
 
-  //handles toggling of date input
-  var toggleDates = function(target){
-    //update input is check status
-    input[target.value] = target.checked;
-  };
-
   //changing data from objects to strings. reverse data.
   var convertData = function(array,temp){
     var data = [];
@@ -96,8 +90,6 @@ $(document).ready(function () {
     var low_temps = input.low ? lowsJSON : [];
     // if chart exist, just update values
     if (chart) {
-      chart = $('#chart').highcharts();
-
       // update series data and titles
       chart.series[0].update({name: "Highs",data: high_temps}, false);
       chart.series[1].update({name: "Lows",data: low_temps}, false);
@@ -157,8 +149,6 @@ $(document).ready(function () {
   });
 
   $('.reset-chart').click(function (e) {
-    //toggle temps
-    toggleDates(e.currentTarget);
     //manually set date picker
     $('#date').data('daterangepicker').setStartDate(datesOrig.startDate);
     $('#date').data('daterangepicker').setEndDate(datesOrig.endDate);
@@ -188,5 +178,6 @@ $(document).ready(function () {
   updateChart();
 
 });
+
 
 
