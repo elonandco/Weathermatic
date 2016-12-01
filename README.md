@@ -46,7 +46,7 @@ Process:
 ```
 *Note: Place this before the end body of your HTML*
 
-### 2.) Create the Main.css
+### 2.) Create the Main.js
 
 #### Methods:
 
