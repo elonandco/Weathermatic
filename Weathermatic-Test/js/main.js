@@ -134,9 +134,7 @@ var drawChart = function() {
                 enabled: false
             }
         });
-
     }
-
 };
 
 //EVENTS
@@ -153,7 +151,6 @@ $('.reset-chart').click(function() {
     resetDatePicker();
     //fetch data
     updateChart();
-
 });
 
 //for the date, initialize and then handle picking
