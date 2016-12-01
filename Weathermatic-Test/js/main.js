@@ -6,15 +6,15 @@ $(document).ready(function() {
         lowsJSON,
         chart,
         //dates we will change
-        dates = {
-            startDate: new Date("2016-10-25"),
-            endDate: new Date("2016-11-24")
-        },
-        //original dates we will keep
         datesOrig = {
             startDate: new Date("2016-10-25"),
             endDate: new Date("2016-11-24")
         },
+        dates = {
+            startDate: datesOrig.startDate,
+            endDate: datesOrig.endDate
+        },
+        //original dates we will keep
         input = {};
     //define key properties status
     input.high = $('.high-check').is(':checked');
