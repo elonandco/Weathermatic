@@ -5,16 +5,16 @@ $(document).ready(function() {
     var highsJSON,
         lowsJSON,
         chart,
-        //dates we will change
+        //original dates we will keep
         datesOrig = {
             startDate: new Date("2016-10-25"),
             endDate: new Date("2016-11-24")
         },
+        //current date selected
         dates = {
             startDate: datesOrig.startDate,
             endDate: datesOrig.endDate
         },
-        //original dates we will keep
         input = {};
     //define key properties status
     input.high = $('.high-check').is(':checked');
