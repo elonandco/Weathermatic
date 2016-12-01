@@ -66,7 +66,7 @@ $(document).ready(function() {
     var drawChart = function() {
 
         //define variables
-        var chart = $('#chart').highcharts();
+        chart = $('#chart').highcharts();
         //toggle temps data according to status
         var high_temps = input.high ? highsJSON : [];
         var low_temps = input.low ? lowsJSON : [];
