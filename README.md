@@ -6,7 +6,7 @@ http://elonandcompany.com/Test/Weathermatic-Test/
 
 Description:
 ---
-Below are instructions on how to dynamically interact with Highcharts using Ember, Bootstrap and Datepicker.
+Below are instructions on how to dynamically interact with Highcharts using JQuery, Bootstrap and Datepicker.
 
 Installation:
 ---
@@ -58,15 +58,6 @@ Process:
 toggleTemps()
 ```
 --
-
-**Toggle Dates:**  
-   
-**Use** - This updates the date duration.   
-**Parameters** - The date input field
-```javascript
-toggleDates()
-```
--- 
 
 **Convert Data:**   
  
