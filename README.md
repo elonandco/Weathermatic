@@ -77,14 +77,6 @@ updateChart()
 ```
 --
 
-**Get Data Values:**  
-
-**Use** - Accesses properties in JSON and returns value  
-**Parameters** - The data and the property you’re trying to access
-```javascript
-getValues()
-```
-
 #### Variables:
 
 `highJSON` - I save the high temperature JSON here in order to access later. This prevents me from having to make multiple JSON calls when I don’t have to.  
