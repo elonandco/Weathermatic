@@ -1,13 +1,10 @@
 $(document).ready(function () {
-
   //VARIABLES
-
 
   //define some keys variables
   var highsJSON,
   lowsJSON,
   chart,
-
   //dates we will change
   dates = {
     startDate: new Date("2016-10-25"),
@@ -19,14 +16,11 @@ $(document).ready(function () {
     endDate: new Date("2016-11-24")
   },
   input = {};
-
   //define key properties status
   input.high = $('.high-check').is(':checked');
   input.low = $('.low-check').is(':checked');
 
-
   //METHODS
-
 
   //handles toggling of temperature checkboxes
   var toggleTemps = function(target){
@@ -140,7 +134,6 @@ $(document).ready(function () {
 
   //EVENTS
 
-
   $('.type-of-temp input').change(function (e) {
     //toggle temp status
     toggleTemps(e.currentTarget);
@@ -162,15 +155,13 @@ $(document).ready(function () {
 
   });
 
-    //for the date, initialize and then handle picking
+   //for the date, initialize and then handle picking
   $('#date').daterangepicker(datesOrig,function(start, end, label) {
     //on apply do the following
     dates.startDate = start;
     dates.endDate = end;
     updateChart();
   });
-
-
 
   //INIT
 
