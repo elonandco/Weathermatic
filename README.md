@@ -53,9 +53,9 @@ Process:
 **Toggle Temps:**  
  
 **Use** - This updates the status (visible or hidden) of the high and low temperatures.   
-**Parameters** - The clicked checkbox
+**Parameters** - Target: The clicked checkbox
 ```javascript
-toggleTemps()
+toggleTemps(target)
 ```
 --
 
@@ -71,9 +71,9 @@ resetDatePicker()
 **Convert Data:**   
  
 **Use** - Converts data into Highcharts “series” structure  
-**Parameters** - An array that needs converting and the temp property to access from the JSON (“high_temp" or “low_temp") 
+**Parameters** - Array: Our JSON, Temp: “high_temp" or “low_temp"
 ```javascript
-convertData()
+convertData(array,temp)
 ```
 --
 
