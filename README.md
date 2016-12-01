@@ -79,7 +79,7 @@ updateChart()
 
 **Draw Chart:**   
   
-**Use** - Draws Chart
+**Use** - Draws Chart  
 **Parameters** - None
 ```javascript
 drawChart()
