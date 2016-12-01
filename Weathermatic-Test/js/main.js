@@ -64,7 +64,7 @@ $(document).ready(function () {
         drawChart();
     });
   };
-  
+
   //draw chart
   var drawChart = function () {
 
@@ -138,8 +138,8 @@ $(document).ready(function () {
     $('#date').data('daterangepicker').setEndDate(datesOrig.endDate);
     //reset dates
     dates = {
-      startDate: new Date("2016-10-25"),
-      endDate: new Date("2016-11-24")
+      startDate: datesOrig.startDate,
+      endDate: datesOrig.endDate
     };
     //fetch data
     updateChart();
@@ -160,6 +160,3 @@ $(document).ready(function () {
   updateChart();
 
 });
-
-
-
