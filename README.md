@@ -64,7 +64,7 @@ toggleTemps()
 **Use** - Converts data into Highcharts “series” structure  
 **Parameters** - An array that needs converting and the temp property to access from the JSON (“high_temp" or “low_temp") 
 ```javascript
-convertDates()
+convertData()
 ```
 --
 
