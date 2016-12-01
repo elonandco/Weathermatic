@@ -77,6 +77,14 @@ updateChart()
 ```
 --
 
+**Draw Chart:**   
+  
+**Use** - Draws Chart
+**Parameters** - None
+```javascript
+drawChart()
+```
+
 #### Variables:
 
 `highJSON` - I save the high temperature JSON here in order to access later. This prevents me from having to make multiple JSON calls when I don’t have to.  
