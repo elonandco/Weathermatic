@@ -29,9 +29,9 @@ var toggleTemps = function(target) {
 //resets tempature
 var resetDatePicker = function(){
     //manually reset date picker
-    $('#date').data('daterangepicker')
-        .setStartDate(datesOrig.startDate)
-        .setEndDate(datesOrig.endDate);
+    var datePicker = $('#date').data('daterangepicker');
+    datePicker.setStartDate(datesOrig.startDate);
+    datePicker.setEndDate(datesOrig.endDate);
     //reset dates
     dates = {
         startDate: datesOrig.startDate,
@@ -134,7 +134,9 @@ var drawChart = function() {
                 enabled: false
             }
         });
+
     }
+
 };
 
 //EVENTS
@@ -151,6 +153,7 @@ $('.reset-chart').click(function() {
     resetDatePicker();
     //fetch data
     updateChart();
+
 });
 
 //for the date, initialize and then handle picking
