@@ -61,7 +61,7 @@ toggleTemps()
 
 **Reset Data Picker:**   
  
-**Use** - Resets the Data Picker to Original Dates
+**Use** - Resets the Data Picker to Original Dates  
 **Parameters** - None 
 ```javascript
 resetDatePicker()
@@ -76,8 +76,6 @@ resetDatePicker()
 convertData()
 ```
 --
-
-resetDatePicker
 
 **Update Chart:**   
   
