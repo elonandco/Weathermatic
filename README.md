@@ -24,7 +24,7 @@ Process:
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
 <!-- Date Picker -->
 <link rel="stylesheet" type="text/css" href="css/datepicker.css" />
-<!-- Boostrap -->
+<!-- My CSS -->
 <link rel="stylesheet" href="css/style.css”>
 ```
 *Note: Place this in the head of your HTML*
@@ -41,7 +41,7 @@ Process:
 <script type="text/javascript" src="js/datepicker.js"></script>
 //High Charts
 <script src="http://code.highcharts.com/highcharts.js"></script>
-//Main
+//My JavaScript
 <script src="js/main.js"></script>
 ```
 *Note: Place this before the end body of your HTML*
