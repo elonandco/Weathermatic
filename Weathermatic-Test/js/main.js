@@ -135,9 +135,9 @@ $(document).ready(function() {
 
     $('.reset-chart').click(function(e) {
         //manually set date picker
-        var datePicker = $('#date').data('daterangepicker');
-        datePicker.setStartDate(datesOrig.startDate);
-        datePicker.setEndDate(datesOrig.endDate);
+        $('#date').data('daterangepicker')
+        .setStartDate(datesOrig.startDate)
+        .setEndDate(datesOrig.endDate);
         //reset dates
         dates = {
             startDate: datesOrig.startDate,
