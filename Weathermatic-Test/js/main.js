@@ -30,23 +30,20 @@ $(document).ready(function () {
   //changing data from objects to strings. reverse data.
   var convertData = function(array,temp){
     var data = [];
-
     //convert the JSON using code
     array.forEach(function(val){
       //only use data if a date and temp is included
       if(val.date && val[temp]){
-        //convert date
+        //convert to date
         var tempDate = new Date(val.date);
         //factor in Daylight Savings
         var actualDate = new Date(tempDate.getTime() + tempDate.getTimezoneOffset()*60000);
-
-        //if dates match
+        //only show values between the defined start and end date
         if(dates.startDate <= actualDate && dates.endDate >= actualDate){
           data.push([val.date,val[temp]]);
         }
       }
     });
-
     return data;
   };
 
@@ -70,7 +67,7 @@ $(document).ready(function () {
 
     //define variables
     var chart = $('#chart').highcharts();
-    //toggle temps according to checkboxes
+    //toggle temps data according to status
     var high_temps = input.high ? highsJSON : [];
     var low_temps = input.low ? lowsJSON : [];
     // if chart exist, just update values
