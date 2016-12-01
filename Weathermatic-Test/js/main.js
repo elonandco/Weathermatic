@@ -64,16 +64,7 @@ $(document).ready(function () {
         drawChart();
     });
   };
-
-  //access specific properties from data
-  var getValues = function(data, prop) {
-    var values = [];
-    data.forEach(function(obj) {
-      values.push(obj[prop]);
-    });
-    return values;
-  };
-
+  
   //draw chart
   var drawChart = function () {
 
