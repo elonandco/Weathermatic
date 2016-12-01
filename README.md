@@ -59,6 +59,15 @@ toggleTemps()
 ```
 --
 
+**Reset Data Picker:**   
+ 
+**Use** - Resets the Data Picker to Original Dates
+**Parameters** - None 
+```javascript
+resetDatePicker()
+```
+--
+
 **Convert Data:**   
  
 **Use** - Converts data into Highcharts “series” structure  
@@ -67,6 +76,8 @@ toggleTemps()
 convertData()
 ```
 --
+
+resetDatePicker
 
 **Update Chart:**   
   
